@@ -1,0 +1,43 @@
+.card{
+    width: 600px;
+
+    justify-content: center;
+    border-radius: 18px;
+    background-color: rgba(6, 4, 4, 0.387);
+    backdrop-filter: blur(10px);
+margin: auto;
+border: 1px solid whitesmoke;
+margin-bottom: 10px;
+box-shadow: 0 0 10px white;
+}
+.card-header{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    background-color: transparent;
+    font-weight: 700;
+  border: 1px solid whitesmoke;
+  text-decoration: underline;
+  text-shadow: 0 0 10px red;
+
+
+}
+.card-body{
+    text-align: left;
+    text-justify:newspaper;
+    color: aliceblue;
+}
+.cardcontainer{
+    background-image:url("https://th.bing.com/th/id/OIP.FLeRI6metHwujMau6_MAEwHaEK?w=2048&h=1152&rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; /* Makes the container take full width of its parent */
+  /* Set a fixed height or min-height if you want the background to be visible */
+  min-height: 400px; 
+  box-shadow: 0 0 10px red;
+   border-radius: 18px;  
+}
+body{
+  background-color: rgba(31, 31, 255, 0.678);
+}
